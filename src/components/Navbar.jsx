@@ -2,6 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
+   
+
     <nav className="flex justify-between items-center px-6 lg:px-24 py-6 shadow-sm bg-white">
       {/* Logo */}
       <div className="text-2xl font-bold text-gray-900">

@@ -1,6 +1,7 @@
 import React from "react";
 import Traveller from "../assets/Traveller 1.png";
-import Plane1 from "../assets/Plane1.jpg";
+import Plane from "../assets/Plane.png";
+import DecoreImage from "../assets/Decore.png";
 
 const Hero = () => {
   return (
@@ -32,19 +33,25 @@ const Hero = () => {
       </div>
 
       {/* Image Section */}
+      
       <div className="mt-10 lg:mt-0 relative">
-      <img
-          src={Traveller}
-          alt="Traveller"
-          className="w-[420px] object-contain z-10 relative"
-        />
+       <div
+    className="w-[420px] h-[500px] bg-no-repeat bg-cover bg-center relative z-0 rounded-xl flex justify-end"
+    style={{ backgroundImage: `url(${DecoreImage})` }}
+  >
+    <img
+      src={Traveller}
+      alt="Traveller"
+      className="w-[420] h-full object-contain z-10 relative"
+    />
+  </div>
         <img
-          src={Plane1}
+          src={Plane}
           alt="Plane"
           className="absolute top-4 left-[-40px] w-24 animate-bounce"
         />
         <img
-          src={Plane1}
+          src={Plane}
           alt="Plane"
           className="absolute bottom-4 right-[-30px] w-24 animate-bounce"
         />

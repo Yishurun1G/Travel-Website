@@ -30,6 +30,9 @@ const Services = () => {
   ];
 
   return (
+    <section className=" ">
+      <img src=""
+       alt="" />
     <div className="px-6 lg:px-24 py-16 bg-white text-center">
       <p className="text-sm text-indigo-500 font-semibold tracking-widest uppercase mb-2">
         Category
@@ -43,7 +46,7 @@ const Services = () => {
           <div
             key={index}
             className={`p-6 rounded-xl shadow hover:shadow-xl  ${
-              service.highlight ? "bg-white shadow-lg border-b-8 border-orange-400" : "bg-gray-50"
+              service.highlight ? "bg-white shadow-lg border-b-8 border-orange-400" : ""
             }`}
           >
             <div className="mb-6 flex justify-center ">
@@ -55,6 +58,7 @@ const Services = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 
