@@ -25,6 +25,7 @@ const steps = [
 
 const EasySteps = () => {
   return (
+
     <div className="px-6 lg:px-24 py-20 grid lg:grid-cols-2 gap-16 items-center bg-white">
       {/* Left Side */}
       <div>

@@ -3,9 +3,10 @@ import Services from "./components/Services";
 import TopDestinations from "./components/TopDestinations";
 import EasySteps from "./components/EasySteps";
 import Testimonials from "./components/Testimonials";
-import SubscriptionForm from "./components/Subscription";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import BrandSection from "./components/Brands";
+import SubscribeSection from "./components/Subscription";
 function App() {
   return (
     <div className="font-sans">
@@ -14,7 +15,8 @@ function App() {
       <TopDestinations />
       <EasySteps />
       <Testimonials />
-      <SubscriptionForm />
+      <BrandSection />
+      <SubscribeSection />
       <Footer />
     </div>
   );

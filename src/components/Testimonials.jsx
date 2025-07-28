@@ -43,7 +43,7 @@ const Testimonials = () => {
 
         {/* Background Card */}
         <div className=" a top-12 left-6 bg-white border rounded-xl shadow-sm p-6 w-[90%] opacity-70 z-0 
-         bottom-[-100px] right-[-10px hover:shadow-2xl ">
+         bottom-[-100px] right-[-10px hover:shadow-2xl left-10 ">
           <p className="text-gray-900 font-semibold">Chris Thomas</p>
           <p className="text-sm text-gray-500">CEO of Red Button</p>
         </div>
